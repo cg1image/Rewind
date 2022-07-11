@@ -5,6 +5,7 @@
     --dark-color: #000000;
     --white-color: #e5d9b6;
     --lighter-color: #f3f3f3;
+    --white-color: white;
 }
 
 body{
@@ -13,9 +14,8 @@ body{
 
 .logoFont{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
-    font-size: medium;
-    padding-top: 0.6rem;
+    
+    
 }
 
 nav{
