@@ -6,10 +6,12 @@
     --white-color: #e5d9b6;
     --lighter-color: #f3f3f3;
     --white-color: white;
-}
+    --bg-color: gray;
+    --red-color: #d41212;
+}    
 
 body{
-    color:var(--dark-color); /* var(--***-***); Custom properties that contain specific values to be reused throughout a document. */
+    color: var(--dark-color); /* var(--***-***); Custom properties that contain specific values to be reused throughout a document. */
 }
 
 .logoFont{
@@ -26,8 +28,8 @@ footer{
     background-color: var(--dark-color);
 }
 
-h1,h2,h3,h4,h5,h6{
-    color: var(--primary-color);
+h1,h2,h3,h4,h5,h6,{
+    color: var(--dark-color);
 }
 
 footer {
@@ -41,8 +43,10 @@ footer .social>a{
 
 footer .social>a:hover{
     opacity: .9;
-    color: var(--secondary-color);
+    color: #d41212;
 }
+
+
 
 .bsicon{
     color: purple;
@@ -61,7 +65,7 @@ footer .social>a:hover{
 }
 
 .checklist >li i{
-    color: var(--secondary-color);
+    color: #d41212
 }
 
 code[class*="language-"],
