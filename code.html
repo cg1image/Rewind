@@ -62,24 +62,69 @@
             <div class="row row-cols-1 row-cols-lg-2">
                 <div class="col-lg-8">
                     <pre class="line-numbers"><code class="language-javascript">
-                        //starts or controller function
-function getValues(){
-    //get values from the page
-    let startValue = document.getElementById("startValue")
+                        
+                        function getValue(){
+                        
+                            document.getElementById("alert").classList.add("invisable");
+                            
+                            let userString=document.getElementById("userString").value;
+                        
+                            let revString = reverseString(userString);
+                        
+                            displayString(revString);
+                        }
+                    </code>
+                    </pre>
+                </div>
+                <div class="col-lg-4">
+                    <p>Controller Function</p>
+                    <h5>getValues</h5>
+                    <p>getValues is a function that gets the character string values from the DOM</p>
+                </div>
+                
+                <div class="col-lg-8">
+                    <pre class="line-numbers"><code class="language-javascript">
+                        
+function reverseString(userString){
 
+    let revString = [];
+        
+    for (let index = userString.length -1; index >= 0; index--) {
+    revString += userString[index];     
+    }
 
-    //we need to call generateNumbers
-
-    //we call displayNumbers
+    return revString;
 }
                     </code>
                     </pre>
                 </div>
                 <div class="col-lg-4">
-                    <p>The Cod is structured in one function.</p>
-                    <h5>getValues</h5>
-                    <p>getValues is a function that gets the starting values from the DOM</p>
+                    <p>Logic Function</p>
+                    <h5>Decending for loop</h5>
+                    <p>Reverses a string using backwards for loop</p>
                 </div>
+
+                <div class="col-lg-8">
+                    <pre class="line-numbers"><code class="language-javascript">
+                        
+function displayString(revString){
+
+    
+    document.getElementById("msg").innerHTML = `Your string reversed is: ${revString}`;
+    
+    document.getElementById("alert").classList.remove("invisible");
+}
+
+                    </code>
+                    </pre>
+                </div>
+                <div class="col-lg-4">
+                    <p>View Function</p>
+                    <h5>Outcome</h5>
+                    <p>Shows the resulting backwards string from user input</p>
+                </div>
+
+
             </div>
 
 
