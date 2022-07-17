@@ -1,5 +1,20 @@
-<svg id="RewindXD" xmlns="http://www.w3.org/2000/svg" width="421" height="121" viewBox="0 0 421 121">
-  <text id="R_WIND" data-name="R  WIND" transform="translate(12 93)" fill="#090808" font-size="98" font-family="Rockwell-BoldItalic, Rockwell" font-weight="700" font-style="italic"><tspan x="0" y="0" xml:space="preserve">R  WIND</tspan></text>
-  <path id="Icon_awesome-arrow-circle-left" data-name="Icon awesome-arrow-circle-left" d="M31.575,65.983C14.443,65.983.563,51.342.563,33.273S14.443.563,31.575.563,62.587,15.2,62.587,33.273,48.706,65.983,31.575,65.983Zm3.614-18.94-9.441-9.549H48.581a3.079,3.079,0,0,0,3-3.166v-2.11a3.079,3.079,0,0,0-3-3.166H25.747L35.189,19.5a3.292,3.292,0,0,0,.05-4.524l-1.376-1.438a2.881,2.881,0,0,0-4.239,0L13.03,31.03a3.275,3.275,0,0,0,0,4.471L29.624,53a2.881,2.881,0,0,0,4.239,0l1.376-1.438A3.292,3.292,0,0,0,35.189,47.043Z" transform="translate(79.438 26.759)" fill="#d41212" stroke="#000" stroke-width="1"/>
-  <text id="SEEING_THE_WORLD_BACKWARDS" data-name="SEEING THE WORLD BACKWARDS" transform="translate(0 115)" fill="#090808" font-size="26" font-family="Rockwell"><tspan x="0" y="0">SEEING THE WORLD BACKWARDS</tspan></text>
+<svg id="RewindXD" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="436" height="137" viewBox="0 0 436 137">
+  <defs>
+    <filter id="R_WIND">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <text id="R_WIND-2" data-name="R  WIND" transform="translate(0 93)" fill="#090808" font-size="98" font-family="Rockwell-BoldItalic, Rockwell" font-weight="700" font-style="italic" letter-spacing="0.055em"><tspan x="0" y="0" xml:space="preserve">R  </tspan><tspan y="0" letter-spacing="0.079em">WIND</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#R_WIND)">
+      <text id="R_WIND-3" data-name="R  WIND" transform="translate(0 93)" fill="#fff" font-size="98" font-family="Rockwell-BoldItalic, Rockwell" font-weight="700" font-style="italic" letter-spacing="0.055em"><tspan x="0" y="0" xml:space="preserve">R  </tspan><tspan y="0" letter-spacing="0.079em">WIND</tspan></text>
+    </g>
+  </g>
+  <path id="Icon_awesome-arrow-circle-left" data-name="Icon awesome-arrow-circle-left" d="M34.264,65.773c-18.617,0-33.7-14.593-33.7-32.605S15.647.563,34.264.563s33.7,14.593,33.7,32.605S52.881,65.773,34.264,65.773Zm3.927-18.879-10.26-9.519H52.745a3.2,3.2,0,0,0,3.261-3.155v-2.1a3.2,3.2,0,0,0-3.261-3.155H27.931l10.26-9.519a3.087,3.087,0,0,0,.054-4.509L36.751,13.5a3.325,3.325,0,0,0-4.607,0L14.111,30.933a3.071,3.071,0,0,0,0,4.457L32.144,52.836a3.326,3.326,0,0,0,4.607,0L38.246,51.4A3.087,3.087,0,0,0,38.191,46.893Z" transform="translate(73.882 24.332)" fill="#d41212" stroke="#000" stroke-width="1"/>
+  <text id="SEEING_THE_WORLD_BACKWARDS" data-name="SEEING THE WORLD BACKWARDS" transform="translate(12 131)" fill="#090808" font-size="25" font-family="Rockwell"><tspan x="0" y="0">SEEING THE WORLD BACKWARDS</tspan></text>
 </svg>
